@@ -1,0 +1,18 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.box{
+  background-color: red;
+  height: 100px;
+  display: inline-block;
+}
+  /* inline block: non costringe il testo di fianco ad andare a capo;
+  inline: sulla riga
+  block: funziona da blocco, occupa tutta la riga e puoi settare width e height */
+
+  /* line-height: per centrare verticale
+  text-align: per centrare orizzontale
+  vertical align: per allineare elementi che stanno di fianco */
