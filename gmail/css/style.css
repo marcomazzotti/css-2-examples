@@ -1,0 +1,67 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url(../img/sfondo\ legno.webp);
+}
+
+.container{
+  width: 80%;
+  height: 0 auto;
+}
+
+#header-logo{
+  vertical-align: middle;
+  height: 60px;
+}
+
+.header-title{
+  color: white;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.notifications{
+  padding: 10px 0;
+  color: white;
+}
+
+.notifications p{
+  font-size: 1.5rem;
+}
+
+.counter{
+  background-color: orange;
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 50px;
+}
+
+.emails{
+  padding: 10px 0;
+}
+
+.emails-list {
+  list-style-type: none;
+}
+
+.emails-list{
+  background-color: lightgray;
+  border: 1px solid black;
+  padding: 5px;
+}
+
+.email-text{
+  color: grey;
+}
+
+.not-read{
+  background-color: white;
+}
+
