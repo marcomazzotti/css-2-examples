@@ -1,0 +1,26 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.box{
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  border: 10px solid black;
+  padding: 20px 12px 16px 10px; /* si può usare anche rem, em e percentuale (% in altezza non si usa */
+  margin: 20px 50px 30px 12px;
+
+  /* con un valore, si imposta tutto uguale
+  con due valori, top-bottom left-right
+  con tre valori, top orizzontale bottom
+  con quattro valori, top right bottom left */
+}
+
+.circle{
+  border-radius: 50%;
+  /* border-top-left-radius: ;
+  border-top-right-radius: ; */
+  /* con due valori in alto a sinistra e in basso a destra */
+}
