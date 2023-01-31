@@ -1,0 +1,23 @@
+.titolo-rem {
+  font-size: 2rem;
+}
+
+.titolo-em {
+  font-size: 2em;
+}
+
+section{
+  font-size: 2rem;
+}
+
+.btn {
+  font-size: 1em;
+}
+
+.btn-piccolo {
+  padding: 1rem;
+}
+
+.btn-grande {
+  padding: 2rem;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rem vs Em</title>
+</head>
+<body>
+  <main>
+    <section>
+      <h2 class="titolo-rem">Questo è il mio titolo in rem</h2>
+      <!-- Rem si adatta alle misure dei caratteri impostate nel browser
+      1rem = 24px se imposto 24px dall'aspetto di chrome
+      1rem = 30px se imposto 30px dall'aspetto di chrome
+      24px restano 24px se imposto numero fisso in css (non è scalabile) -->
+      <h2 class="titolo-em">Questo è il mio titolo in em</h2>
+      <!-- Em prende la misura del font da genitore
+      in questo caso la section ha font-size 2rem (16 defaulkt di chrome x 2 = 32)
+      il titolo em avrà quindi font 64 (perche 2em = 32 x 2)
+      margin e padding prendono come riferimento le dimensioni del margine e del padding dell'elemento a cui sono applicati
+      se titolo è 0.5 rem anche il margin scala in proporzione-->
+      <button class="btn btn-piccolo">Bottone piccolo</button>
+      <button class="btn btn-grande">Bottone grande</button>
+      <!-- font - size: meglio Rem
+      margin/padding: em o pixel dipende dal cosa si vuole -->
+    </section>
+  </main>
+</body>
+</html>
